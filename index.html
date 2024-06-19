@@ -10,10 +10,12 @@
 </head>
 
 <body>
-  <nav class="navbar bg-success fixed-top">
+  <!--navegador-->
+  <nav class="navbar fixed-top" style="background-color: #4B8ECC;">
     <div class="container-fluid" style="height: 15vh;">
-      <img src="img/logo.png" alt="Logo IFMS" width="50" height="auto" class="d-inline-block align-text-top" style="margin-left:3vh; margin-top: -2vh;">
-      <img src="img/logo2.png"alt="Logo GeoImigrantes"width="130" height="auto"class="d-inline-block">
+      <img src="img/logo2.png"alt="Logo GeoImigrantes"width="130" height="auto"class="d-inline-block" style="margin-left:2vh;">
+      <!-- <img src="img/logo.png" alt="Logo IFMS" width="50" height="auto" class="d-inline-block align-text-top" style="margin-left:3vh; margin-top: -2vh;"> -->
+      
       <!--botao de menu-->
       <button
         class="navbar-toggler "
@@ -34,7 +36,7 @@
         id="offcanvasNavbar"
         aria-labelledby="offcanvasNavbarLabel"
       >
-        <div class="offcanvas-header bg-success">
+        <div class="offcanvas-header"style="background-color: #4B8ECC;">
           <h5
             class="offcanvas-title"
             id="offcanvasNavbarLabel"
@@ -53,7 +55,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Pagina Inicial</a>
+              <a class="nav-link active" href="index.html">Página Inicial</a>
             </li>
             <li class="nav-item">
               <a
@@ -74,7 +76,7 @@
                 Sobre nós
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Equipe</a></li>
+                <li><a class="dropdown-item" href="equipe.html">Equipe</a></li>
                 <li><a class="dropdown-item" href="#">Feiras</a></li>
                 <li>
                   <hr class="dropdown-divider" />
@@ -101,8 +103,8 @@
     </div>
   </nav>
 
-    <!-- inicio banner-->
-    <div id="carouselExampleIndicators" class="carousel slide" style="margin-top:19vh; margin-left:5vh;margin-right:5vh;">
+    <!-- inicio carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" width="300px" height="610" style=" margin-top:19vh; margin-left:5vh;margin-right:5vh; display:block;">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -110,8 +112,8 @@
         </div>
 
         <div class="carousel-inner">
-          <div class="carousel-item active mt-"><!--primeiro slide-->
-            <img src="img/slide1.png" width="300" height="620"  class="d-block w-100" alt="Primeira imagem">
+          <div class="carousel-item active"><!--primeiro slide-->
+            <img src="img/slide1.png"width="300" height="610"class="d-block w-100 " alt="Primeira imagem">
             <div class="carousel-caption d-none d-md-block"><!--legenda-->
                 <h5>Projeto GeoImigrantes</h5>
                 <p>plataforma privilegia o método qualitativo, trazendo para o centro da pesquisa uma reflexão importante sobre a imigração, o estudo dos fluxos migratórios e a acolhida de imigrantes venezuelanos na cidade de Dourados.</p>
@@ -120,7 +122,7 @@
 
 
           <div class="carousel-item"><!--Segundo slide-->
-            <img src="img/slide2.png" width="300" height="610" class="d-block w-100" alt="Segunda imagem">
+            <img src="img/slide2.png"  width="200" height="610"class="d-block w-100" alt="Segunda imagem">
             <div class="carousel-caption d-none d-md-block"><!--legenda-->
                 <h5>Projeto GeoImigrantes</h5>
                 <p>plataforma privilegia o método qualitativo, trazendo para o centro da pesquisa uma reflexão importante sobre a imigração, o estudo dos fluxos migratórios e a acolhida de imigrantes venezuelanos na cidade de Dourados.</p>
@@ -235,7 +237,7 @@
       </div>
 
       <!--rodape-->
-      <footer class="bg-success mt-5  container-fluid d-flex  ">
+      <footer class=" mt-5  container-fluid d-flex "style="background-color: #4B8ECC;">
         <img src="img/logo.png" alt="Logo" width="60" height="auto" style=" margin-top:2vh;  margin-bottom:2vh;">
         <p class="text-light" style=" margin-top:4vh;  margin-left:4vh;">  &copy; 2023 - Desenvolvido por Lorena Missio.<br>IFMS - Campus Dourados </p>
       </footer>
